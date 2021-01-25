@@ -1,0 +1,34 @@
+/* header */
+.heder-wraper{
+    background-image: url('../img/img-heder.jpg');
+    height:900px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+.conteineri-header{
+    max-width:1070px;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+.header-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.nav-ul{
+    display: flex;
+
+}
+.nav-a{
+    color: #D9F0FF;
+    font-size: 12px;
+}
+.nav-li{
+    margin-right: 30px;
+}
+.nav-li:nth-child(4){
+    margin-right: 0;
+}
